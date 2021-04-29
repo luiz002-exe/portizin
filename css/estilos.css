@@ -1,0 +1,75 @@
+/* estilos genericos  */
+
+
+.black-0{
+    background-color:black;
+}
+.cinza-20{
+    background-color: #ccc;
+}
+.cinza-40{
+    background-color: #999;
+}
+.cinza-60{
+    background-color: #666;
+}
+.cinza-80{
+    background-color: #333;
+}
+.sombra-card{
+    box-shadow: 2px 2px 5px #000;
+}
+.miniatura{
+    /* comportamento inline-block que continua semelhante 
+    a texto porém reconhece margens e dimensões */
+    display: inline-block;
+    margin: 5px;
+    
+}
+.miniatura img{
+    width: 150px;
+}
+
+
+
+/* estilos para carousel */
+.carousel-caption h3, .carousel-caption p{
+    text-shadow: 3px 3px 5px #000;
+}
+
+.carousel-caption{
+    background-color: rgba(38, 37, 39, 0.5);
+}
+
+/* estilos para as seçoes */
+.titulos{
+    width:fit-content ;
+    border-bottom: 7px #777 solid;
+    margin: 0 auto;
+}
+
+/* estilo para a seta subir */
+
+.seta-sobe{
+    border-radius: 10px;
+    background-color: rgba(4, 4, 4, 0.6); 
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+footer{
+
+    background-color: #999;
+    
+    }
